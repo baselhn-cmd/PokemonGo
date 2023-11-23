@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+    min-height: 100vh;
+    background: linear-gradient(to left, dodgerblue, #345);
+}
+header {
+    background-color: rgb(179, 194, 212);
+    
+}
+.logo a {
+    font-size: 50px;
+    color: rgb(20, 46, 66);
+    text-decoration: none;
+}
+.informtion i {
+    border: solid 25px;
+    color: rgb(20, 46, 66);
+}
