@@ -1,10 +1,10 @@
-#Pokemon Go memory game
+#Pokemon memory game
 Welcome to Pokemon go memory game
 In this game you will catch pokemon cards
 
 ![Responsice Mockup]( assets/images/pokemonweb.png)
 
-## UX 
+## UX
 I choose This coolors
 ![Responsice Mockup]( assets/images/color.png)
 
@@ -27,7 +27,7 @@ No errors were returned when passing through the [W3C Markup validator](https://
 No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) validator
 
 
-### Manual Testing
+## Manual Testing
 
 -All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
 
