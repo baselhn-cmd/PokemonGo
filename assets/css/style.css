@@ -81,6 +81,14 @@ header h1 {
 .memory-timer {
     border: 1px solid #000;
     background-color: #556a97;
+    width: 30%;
+    min-height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
