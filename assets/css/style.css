@@ -35,19 +35,30 @@ header h1 {
 }
 
 .under-header {
-    text-transform: capitalize;
-    font-family: sans-serif;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
 }
 
-.under-header>a {
+.under-header a {
     text-decoration: none;
     color: white;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
-a:hover {
-    color: #cadfff;
+.under-header a:hover {
+    color: #3498db;
 }
+.gameName{
+    background: linear-gradient(to right, #30CFD0 0%, #8b3fe8 100%);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+
 
 .game-container {
     width: 640px;
