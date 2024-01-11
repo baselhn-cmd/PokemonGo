@@ -25,6 +25,13 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0.5em 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ecf0f1;
 }
 
 .under-header {
