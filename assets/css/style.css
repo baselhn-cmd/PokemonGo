@@ -61,14 +61,20 @@ header h1 {
 
 
 .game-container {
-    width: 640px;
-    height: 640px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 10px;
-    border: 1px solid black;
-    perspective: 1000px;
+    margin-top: 1rem;
+        width: 75vh;
+        max-width: 640px;
+        height: 70vh;
+        max-height: 640px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+        border: 1px solid #34495e;
+        perspective: 1000px;
+        background-color: #16398aa7;
+        border-radius: 10px;
+        overflow: hidden;
 }
 
 .card {
