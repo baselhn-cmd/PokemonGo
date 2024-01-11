@@ -1,73 +1,119 @@
 const allCards = document.querySelectorAll(".card");
+const restartButton = document.getElementById("restartButton");
+const timeH = document.querySelector('.timer-memory');
+const matchesSpan = document.getElementById("matches");
+let timeSecond = 260;
 
 let firstCard = null;
 let secondCard = null;
-
-let canClick = true; // Fix the variable name
-
+let canClick = true;
 let score = 0;
+let matchesFound = 0;
 
 allCards.forEach(card => {
-    card.addEventListener('click', handelCardClick);
+    card.addEventListener('click', handleCardClick);
 });
 
-// generate a number between 1 and 12
-let num = 6;
-// get card element for that number
-const dataCards = document.querySelectorAll(`[data-card="${num}"] .front`);
-console.log(dataCards.length);
+restartButton.addEventListener("click", handleRestart);
+timeH.addEventListener('click', startGame);
 
-// assign image to card
-dataCards[0].src = "/assets/images/pokemon3.png";
-
-
-
-// Handel clicking on a card
-function handelCardClick() {
+function handleCardClick() {
     if (!canClick) return;
 
     if (this.classList.contains("flip")) return;
     this.classList.add("flip");
 
-    if (!firstCard) firstCard = this;
-    else if (!secondCard) secondCard = this;
+    if (!firstCard) {
+        firstCard = this;
+    } else if (!secondCard) {
+        secondCard = this;
 
-    let img1 = firstCard ? firstCard.firstElementChild.src : null;
-    let img2 = secondCard ? secondCard.firstElementChild.src : null;
+        let img1 = firstCard.firstElementChild.src;
+        let img2 = secondCard.firstElementChild.src;
 
-    if (img1 === img2) {
-        console.log("matching.....");
-        firstCard = null;
-        secondCard = null;
-
-        score++;
-        if (score === 6) handleGameOver();
-    } else if (img1 && img2) {
-        canClick = false;
-
-        setTimeout(() => {
-            firstCard.classList.remove("flip");
-            secondCard.classList.remove("flip");
+        if (img1 === img2) {
+            console.log("matching.....");
             firstCard = null;
             secondCard = null;
-            canClick = true;
-        }, 1000);
+
+            score++;
+            matchesFound++;
+            updateMatches();
+
+            if (score === 6) handleGameOver();
+        } else {
+            canClick = false;
+
+            setTimeout(() => {
+                firstCard.classList.remove("flip");
+                secondCard.classList.remove("flip");
+                firstCard = null;
+                secondCard = null;
+                canClick = true;
+            }, 1000);
+        }
     }
+}
+
+function handleRestart() {
+    allCards.forEach(card => {
+        card.classList.remove("flip");
+    });
+    firstCard = null;
+    secondCard = null;
+    canClick = false;
+    score = 0;
+    matchesFound = 0;
+    updateMatches();
+}
+
+function startGame() {
+    canClick = true;
+    allCards.forEach(card => {
+        card.classList.remove("flip");
+    });
+    firstCard = null;
+    secondCard = null;
+    score = 0;
+    matchesFound = 0;
+    updateMatches();
+
+    // Shuffle cards
+    allCards.forEach(card => {
+        let randPos = Math.floor(Math.random() * 12);
+        card.style.order = randPos;
+    });
+
+    // Start the timer
+    startTimer();
+}
+
+function startTimer() {
+    const timerInterval = setInterval(() => {
+        timeSecond--;
+        displayTime(timeSecond);
+        if (timeSecond === 0) {
+            clearInterval(timerInterval);
+            handleGameOver();
+        }
+    }, 1000);
+}
+
+function displayTime(second) {
+    const min = Math.floor(second / 60);
+    const sec = Math.floor(second % 60);
+    timeH.innerHTML = `${min < 10 ? '0' : ''}${min}:${sec < 10 ? '0' : ''}${sec}`;
+}
+
+function updateMatches() {
+    matchesSpan.textContent = matchesFound;
 }
 
 function handleGameOver() {
     setTimeout(() => {
         let retVal = confirm("You Win");
-        if (retVal === true){
+        if (retVal === true) {
             location.reload();
         }
     }, 1000);
 }
-
-
-// === Suffle Cards ===
-allCards.forEach((card) => {
-    let randPos = Math.floor(Math.random() * 12);
-    card.style.order = randPos
-});
-
