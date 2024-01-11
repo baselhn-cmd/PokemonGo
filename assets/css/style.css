@@ -77,6 +77,13 @@ header h1 {
         overflow: hidden;
 }
 
+/* Timer for memory game */
+.memory-timer {
+    border: 1px solid #000;
+    background-color: #556a97;
+}
+
+
 .card {
     border: 1px solid white;
     border-radius: 10px;
