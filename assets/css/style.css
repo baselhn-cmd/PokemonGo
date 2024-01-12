@@ -101,6 +101,10 @@ header h1 {
     cursor: pointer;
 }
 
+.buttons-container {
+    background-color: #000;
+    visibility: hidden;
+}
 .matches-box {
     text-align: center;
     font-size: bold;

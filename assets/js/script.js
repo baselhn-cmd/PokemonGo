@@ -6,7 +6,7 @@ let timeSecond = 260;
 
 let firstCard = null;
 let secondCard = null;
-let canClick = true;
+let canClick = false;
 let score = 0;
 let matchesFound = 0;
 
