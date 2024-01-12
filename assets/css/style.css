@@ -108,7 +108,7 @@ header h1 {
 
 .matches-box {
     text-align: center;
-    font-size: bold;
+    font-weight: bold;
     width: 30%;
     min-height: 50px;
     border: 1px solid black;
