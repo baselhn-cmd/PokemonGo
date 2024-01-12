@@ -92,7 +92,7 @@ header h1 {
 }
 
 .memory-timer>h2 {
-    color: white;
+    color: rgb(71, 3, 3);
     text-align: center;
 }
 
@@ -102,13 +102,10 @@ header h1 {
 }
 
 .buttons-container {
-    background-color: #000;
+
     visibility: hidden;
 }
-.timer-memory
-{
-    background-color: #556a97;
-}
+
 .matches-box {
     text-align: center;
     font-size: bold;
