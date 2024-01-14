@@ -28,7 +28,7 @@ I used Google to find and match the color
 - Add reset buttom.
 
 
-## Future 
+## Future
 
 **Better design for the website with more interactivity**
 
@@ -38,6 +38,8 @@ I used Google to find and match the color
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) Used for crafting the primary site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) Employed for designing and structuring the main site layout.
+- [CSS Flexbox and CSS Grid](https://www.w3schools.com/css/css3_flexbox.asp) Utilized for creating a felxible and responsive layout.
+- 
 
 ## Testing
 
