@@ -58,6 +58,10 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 ![csstest](assets/images/Css%20test.png)
 
+#### JavaScript
+
+ [JavaScript validator](https://jshint.com/)
+
 ## Manual Testing
 
 -All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
