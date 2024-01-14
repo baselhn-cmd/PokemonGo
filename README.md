@@ -1,6 +1,6 @@
-#Pokemon memory game
-Welcome to Pokemon go memory game
-In this game you will catch pokemon cards
+# Pokemon Go memory game
+
+## Welcome to Pokemon Go memory game, help Pokemon reach his final form
 
 ![Responsice Mockup]( assets/images/pokemonweb.png)
 
