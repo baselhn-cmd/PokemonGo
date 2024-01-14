@@ -85,9 +85,6 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 
 -All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
 
-### Testing User Stories from (UX) section
-
-
 
 ## Credits
 
@@ -102,4 +99,4 @@ Lighthouse was a helpful tool for checking where where the website was experienc
   - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
-- Special thanks to  mentor @Dick Vlaanderen.
+- Special thanks to  my mentor Dick Vlaanderen.
