@@ -83,7 +83,13 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 
 ## Manual Testing
 
--All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
+- All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
+
+Pokemon Go memory game 
+
+![pokemon](assets/images/pokemon100.png)
+
+
 
 
 ## Credits
