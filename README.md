@@ -21,22 +21,30 @@ I used Google to find and match the color
 
 ![Responsice Mockup]( assets/images/colorpoke.png)
 
+## Future
+
+- **Start game button**
+
+- When clicked starts the memory game.
+- Lights up with a pink color when hovered over.
+- Changes to time when clicked.
+- When countdown reaches zero it will say game over.
+- If game is won it will say you win!
+
+![start game picture](assets/images/startshoot1.png)
+![start game picture](documentation/image/start-game2.png)  
+![start game picture](documentation/image/start-game4.png)  
+![start game picture](documentation/image/start-game3.png)
+
 ### Features Left to Implement
 
 - When sountdown reaches zero it will show game over.
 - Style Win screen modal.
 - Add reset buttom.
-  **Better design for the website with more interactivity**
-
 - I would like to make animation on the modal and better design overall for the game.
-
-## Future
-
-**Better design for the website with more interactivity**
-
-- I would like to make animation on the modal and better design overall for the game.
+- Better design for the website with more interactivity
   
-## Tools & Technologies Used
+## Tools & Technologies Use
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) Used for crafting the primary site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) Employed for designing and structuring the main site layout.
@@ -57,7 +65,7 @@ No errors were returned when passing through the [W3C Markup validator](https://
 
 #### CSS
 
-No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ![csstest](assets/images/Css%20test.png)
 
