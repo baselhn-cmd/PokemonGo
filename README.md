@@ -23,8 +23,9 @@ I used Google to find and match the color
 
 ### Features Left to Implement
 
-- Add header with logo.
-- Add Start and reset buttom.
+- When sountdown reaches zero it will show game over.
+- Style Win screen modal.
+- Add reset buttom.
 
 
 ## Testing
