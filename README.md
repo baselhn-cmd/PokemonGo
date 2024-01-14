@@ -13,7 +13,7 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
 
 ## [Live site](https://baselhn-cmd.github.io/PokemonGo/)
 
-![Am I responsive picture](documentation/image/responsive.png)
+![Am I responsive picture](assets/images/ResponsivePok.png)
 
 ## UX
 I choose This coolors
