@@ -164,7 +164,6 @@ header h1 {
 
 footer {
     background-color: #34495e;
-    color: linear-gradient(to right, #30CFD0 0%, #8b3fe8 100%);
     text-align: center;
     padding: 0.5rem 0;
     position: fixed;
