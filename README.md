@@ -28,6 +28,13 @@ I used Google to find and match the color
 - Add reset buttom.
 
 
+## Future 
+
+**Better design for the website with more interactivity**
+
+- I would like to make animation on the modal and better design overall for the game.
+
+
 ## Testing
 
 ### Validator Testing
