@@ -92,6 +92,14 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 - When the user press start Game the timer start shutting down
 
 ![Game](assets/images/testing1.png)
+
+- Start matchthe same pictures
+
+![matching](assets/images/Screenshot%20(12).png)
+
+- Match all the pictures and you win 
+
+![Game](assets/images/Screenshot%20(13).png)
   
 
 ## Credits
