@@ -16,8 +16,10 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
 ![Am I responsive picture](assets/images/ResponsivePok.png)
 
 ## UX
-I choose This coolors
-![Responsice Mockup]( assets/images/color.png)
+
+I used Google to find and match the color
+
+![Responsice Mockup]( assets/images/colorpoke.png)
 
 ### Features Left to Implement
 
