@@ -40,7 +40,9 @@ I used Google to find and match the color
 - [CSS](https://en.wikipedia.org/wiki/CSS) Employed for designing and structuring the main site layout.
 - [CSS Flexbox and CSS Grid](https://www.w3schools.com/css/css3_flexbox.asp) Utilized for creating a felxible and responsive layout.
 - [JavaScript](https://www.javascript.com) Implemented for enhancing user interaction and functionality on the site.
+- [Git]((<https://git-scm.com>) Employed for version control, including commands such as  (`git add`, `git commit`, `git push`).
 - 
+
 
 ## Testing
 
