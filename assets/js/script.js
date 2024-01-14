@@ -2,7 +2,7 @@ const allCards = document.querySelectorAll(".card");
 const restartButton = document.getElementById("restartButton");
 const timeH = document.querySelector('.timer-memory');
 const matchesSpan = document.getElementById("matches");
-let timeSecond = 10;
+let timeSecond = 100;
 
 let firstCard = null;
 let secondCard = null;

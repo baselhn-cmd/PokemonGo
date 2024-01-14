@@ -26,14 +26,16 @@ I used Google to find and match the color
 - **Start game button**
 
 - When clicked starts the memory game.
-- Lights up with a pink color when hovered over.
+- Match found box showing how many match finded.
+- Lights up with a white color when hovered over.
 - Changes to time when clicked.
 - When countdown reaches zero it will say game over.
 - If game is won it will say you win!
 
+
 ![start game picture](assets/images/startshoot1.png)
-![start game picture](documentation/image/start-game2.png)  
-![start game picture](documentation/image/start-game4.png)  
+![match found picture](assets/images/matchfound.png)  
+![timer](assets/images/timeshot.png)
 ![start game picture](documentation/image/start-game3.png)
 
 ### Features Left to Implement
