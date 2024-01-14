@@ -33,9 +33,9 @@ I used Google to find and match the color
 - If game is won it will say you win!
 
 
-![start game picture](assets/images/startshoot1.png) br
-![match found picture](assets/images/matchfound.png)  br
-![timer](assets/images/timeshot.png)  br
+![start game picture](assets/images/startshoot1.png) 
+![match found picture](assets/images/matchfound.png)  
+![timer](assets/images/timeshot.png)  
 
 
 ### Features Left to Implement
