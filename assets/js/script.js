@@ -2,7 +2,7 @@ const allCards = document.querySelectorAll(".card");
 const restartButton = document.getElementById("restartButton");
 const timeH = document.querySelector('.timer-memory');
 const matchesSpan = document.getElementById("matches");
-let timeSecond = 160;
+let timeSecond = 10;
 
 let firstCard = null;
 let secondCard = null;
@@ -115,5 +115,18 @@ function handleGameOver() {
         if (retVal === true) {
             location.reload();
         }
+    }, 1000);
+}
+
+// Game over
+
+function handleGameOver() {
+    setTimeout(() => {
+        if (matchesFound === 6) {
+            alert("You Win!");
+        } else {
+            alert("You Lose! Time's up!");
+        }
+        location.reload();
     }, 1000);
 }
