@@ -2,6 +2,15 @@
 
 ## Welcome to Pokemon Go memory game, help Pokemon reach his final form
 
+In this exciting Pokémon Go Memory Game, embark on a journey to help Pokémon evolve! Uncover cards featuring various forms of Pokémon and match them to score points. Challenge your memory as you explore the enchanting world of Pokémon.
+
+Game Instructions:
+
+Score points by successfully matching pairs of Pokémon's different forms.
+Win the game by successfully matching all the evolving Pokémon pairs.
+
+Get ready for an immersive experience filled with fun and nostalgia! Dive into the Pokémon universe and test your memory skills. Have a blast on your quest to aid Pokémon in their evolution!
+
 ![Responsice Mockup]( assets/images/pokemonweb.png)
 
 ## UX
