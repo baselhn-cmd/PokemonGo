@@ -26,6 +26,9 @@ I used Google to find and match the color
 - When sountdown reaches zero it will show game over.
 - Style Win screen modal.
 - Add reset buttom.
+  **Better design for the website with more interactivity**
+
+- I would like to make animation on the modal and better design overall for the game.
 
 ## Future
 

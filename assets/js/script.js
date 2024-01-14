@@ -99,6 +99,8 @@ function startTimer() {
     }, 1000);
 }
 
+// Display time 
+
 function displayTime(second) {
     const min = Math.floor(second / 60);
     const sec = Math.floor(second % 60);
