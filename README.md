@@ -62,6 +62,12 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
  [JavaScript validator](https://jshint.com/)
 
+### Lighthouse testing
+
+Lighthouse was a helpful tool for checking where where the website was experiencing the most issues.
+
+![Lighthouse performance test](assets/images/speedtest.png)
+
 ## Manual Testing
 
 -All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
