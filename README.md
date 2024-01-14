@@ -33,7 +33,11 @@ I used Google to find and match the color
 **Better design for the website with more interactivity**
 
 - I would like to make animation on the modal and better design overall for the game.
+  
+## Tools & Technologies Used
 
+- [HTML](https://en.wikipedia.org/wiki/HTML) Used for crafting the primary site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) Employed for designing and structuring the main site layout.
 
 ## Testing
 
