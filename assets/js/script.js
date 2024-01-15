@@ -111,14 +111,14 @@ function updateMatches() {
     matchesSpan.textContent = matchesFound;
 }
 
-function handleGameOver() {
-    setTimeout(() => {
-        let retVal = confirm("You Win");
-        if (retVal === true) {
-            location.reload();
-        }
-    }, 1000);
-}
+// function handleGameOver() {
+//     setTimeout(() => {
+//         let retVal = confirm("You Win");
+//         if (retVal === true) {
+//             location.reload();
+//         }
+//     }, 1000);
+// }
 
 // Game over
 
@@ -129,6 +129,9 @@ function handleGameOver() {
         } else {
             alert("You Lose! Time's up!");
         }
-        location.reload();
+        handleRestart()
+        // location.reload();
     }, 1000);
 }
+
+
