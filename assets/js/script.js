@@ -130,7 +130,7 @@ function handleGameOver() {
             alert("You Lose! Time's up!");
         }
         handleRestart()
-        // location.reload();
+        location.reload();
     }, 1000);
 }
 
