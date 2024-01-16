@@ -32,11 +32,9 @@ I used Google to find and match the color
 - When countdown reaches zero it will say game over.
 - If game is won it will say you win!
 
-
-![start game picture](assets/images/startshoot1.png) 
+![start game picture](assets/images/startshoot1.png)
 ![match found picture](assets/images/matchfound.png)  
 ![timer](assets/images/timeshot.png)  
-
 
 ### Features Left to Implement
 
@@ -85,7 +83,7 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 
 - All links on every page have been thoroughly checked,and the form was succefuly submitted to cpnfirmation page.
 
-- Pokemon Go memory game 
+- Pokemon Go memory game
 
 ![pokemon](assets/images/pokemon100.png)
 
@@ -97,11 +95,10 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 
 ![matching](assets/images/Screenshot%20(12).png)
 
-- Match all the pictures and you win 
+- Match all the pictures and you win
 
 ![Game](assets/images/Screenshot%20(13).png)
   
-
 ## Credits
 
 ### Content

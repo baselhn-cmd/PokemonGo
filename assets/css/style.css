@@ -264,7 +264,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 430px) {
+/* @media screen and (min-width: 430px),
+screen and (max-width: 670px) {
 
     .game-container {
         width: 40vh;
@@ -304,4 +305,4 @@ footer {
         margin-left: 50px;
         border-radius: 25px;
     }
-}
+} */
