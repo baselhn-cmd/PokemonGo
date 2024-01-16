@@ -10,6 +10,8 @@ let canClick = false;
 let score = 0;
 let matchesFound = 0;
 
+
+
 allCards.forEach(card => {
     card.addEventListener('click', handleCardClick);
 });
@@ -111,14 +113,7 @@ function updateMatches() {
     matchesSpan.textContent = matchesFound;
 }
 
-// function handleGameOver() {
-//     setTimeout(() => {
-//         let retVal = confirm("You Win");
-//         if (retVal === true) {
-//             location.reload();
-//         }
-//     }, 1000);
-// }
+
 
 // Game over
 

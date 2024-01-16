@@ -263,3 +263,45 @@ footer {
         border-radius: 25px;
     }
 }
+
+@media screen and (max-width: 430px) {
+
+    .game-container {
+        width: 40vh;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        border: 1px solid #34495e;
+        background-color: #16398aa7;
+        border-radius: 10px;
+    }
+
+    .card {
+        height: 70px;
+        width: 70px;
+    }
+
+    .memory-timer {
+        border: 1px solid #000;
+        background-color: #556a97;
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 150px;
+        border-radius: 25px;
+    }
+
+    .memory-timer>h2 {
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .matches-box {
+        font-size: 10px;
+        border: 1px solid #000;
+        width: 30%;
+        margin-left: 50px;
+        border-radius: 25px;
+    }
+}
