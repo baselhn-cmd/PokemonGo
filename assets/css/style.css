@@ -332,3 +332,18 @@ screen and (max-width: 670px) {
         height: 125px;
     }
 }
+
+@media (max-width: 568px){
+    .memory-timer{
+        margin-left: 115px;
+    }
+    .memory-timer h2{
+        font-size: 17px;
+    }
+    .matches-box p,.matches-box span{
+        font-size: 15px;
+    }
+    .game-container .card{
+        width: 100%;
+    }
+}
