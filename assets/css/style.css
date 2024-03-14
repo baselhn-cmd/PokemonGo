@@ -17,6 +17,9 @@ body {
 }
 
 /* Header */
+section {
+    padding-bottom: 70px;
+}
 
 header {
     background-color: #34495e;
