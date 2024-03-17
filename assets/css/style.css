@@ -66,13 +66,16 @@ header h1 {
 
 }
 
-
+div.card {
+    width: 50px;
+    height: 60px;
+}
 
 .game-container {
     margin-top: 1rem;
-    width: 75vh;
+    width: fit-content;
     max-width: 640px;
-    height: 70vh;
+    height: fit-content;
     max-height: 640px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -99,9 +102,14 @@ header h1 {
     align-items: center;
 }
 
+.memory-timer {
+    margin-bottom: 5px;
+}
+
 .memory-timer>h2 {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: small;
 }
 
 .memory-timer>h2:hover {
@@ -184,170 +192,46 @@ footer {
 }
 
 /* Media queries */
-/* Media query: tablets and larger (max width 280px) */
-@media screen and (max-width: 280px) {
-
-    .game-container {
-        width: 40vh;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        border: 1px solid #34495e;
-        background-color: #16398aa7;
-        border-radius: 10px;
-    }
-
-    .card {
-        height: 50px;
-        width: 50px;
-    }
-
-    .memory-timer {
-        border: 1px solid #000;
-        background-color: #556a97;
-        width: 20%;
-        margin-top: 20px;
-        margin-left: 150px;
-        border-radius: 25px;
-    }
-
-    .memory-timer>h2 {
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-    .matches-box {
-        font-size: 10px;
-        border: 1px solid #000;
-        width: 30%;
-        margin-left: 50px;
-        border-radius: 25px;
-    }
-}
-
 /* Media query: tablets and larger (max width 320px) */
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 
-    .game-container {
-        width: 40vh;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        border: 1px solid #34495e;
-        background-color: #16398aa7;
-        border-radius: 10px;
-    }
-
-    .card {
-        height: 50px;
-        width: 50px;
-    }
-
-    .memory-timer {
-        border: 1px solid #000;
-        background-color: #556a97;
-        width: 20%;
-        margin-top: 20px;
-        margin-left: 150px;
-        border-radius: 25px;
-    }
-
-    .memory-timer>h2 {
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-    .matches-box {
-        font-size: 10px;
-        border: 1px solid #000;
-        width: 20%;
-        margin-left: 50px;
-        border-radius: 25px;
+    section {
+        padding-bottom: 10px;
     }
 }
 
-/* @media screen and (min-width: 430px),
-screen and (max-width: 670px) {
+@media screen and (min-width: 568px) {
 
-    .game-container {
-        width: 40vh;
-        height: 50vh;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        border: 1px solid #34495e;
-        background-color: #16398aa7;
-        border-radius: 10px;
+    section {
+        padding-bottom: 10px;
     }
 
-    .card {
-        height: 70px;
+    div.card {
         width: 70px;
-    }
-
-    .memory-timer {
-        border: 1px solid #000;
-        background-color: #556a97;
-        width: 20%;
-        margin-top: 20px;
-        margin-left: 150px;
-        border-radius: 25px;
-    }
-
-    .memory-timer>h2 {
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-    .matches-box {
-        font-size: 10px;
-        border: 1px solid #000;
-        width: 30%;
-        margin-left: 50px;
-        border-radius: 25px;
-    }
-} */
-
-@media (max-width: 767px){
-    section{
-        width: 100%;
-    }
-    .memory-timer{
-        width: fit-content;
-        padding: 10px 20px;
-    }
-    .matches-box{
-        width: fit-content;
-        padding: 10px;
-        margin: 15px 0;
-    }
-    .game-container{
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        height: auto;
-    }
-    .game-container .card{
-        height: 125px;
+        height: 70px;
     }
 }
 
-@media (max-width: 568px){
-    .memory-timer{
-        margin-left: 115px;
+@media (min-width: 762px) {
+    div.card {
+        width: 85px;
+        height: 85px;
     }
-    .memory-timer h2{
-        font-size: 17px;
+
+    section {
+        padding-bottom: 10px;
     }
-    .matches-box p,.matches-box span{
-        font-size: 15px;
+}
+
+@media (min-width: 992px) {
+    section {
+        padding-bottom: 70px;
     }
-    .game-container .card{
-        width: 100%;
+
+    div.card {
+        width: 110px;
+        height: 110px;
     }
+
 }
