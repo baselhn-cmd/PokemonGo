@@ -18,7 +18,11 @@ body {
 
 /* Header */
 section {
-    padding-bottom: 70px;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
