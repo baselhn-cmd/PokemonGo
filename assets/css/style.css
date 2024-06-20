@@ -191,6 +191,41 @@ footer {
     text-decoration: none;
 }
 
+/* Add this to your existing style.css */
+
+/* Result Panel */
+.result-panel {
+    height: 250px;
+    width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(100, 121, 241);
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+    display: none;
+}
+
+#playAgainButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #033b77;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#playAgainButton:hover {
+    background-color: #12569e;
+}
+
 /* Media queries */
 /* Media query: tablets and larger (max width 320px) */
 

@@ -2,7 +2,12 @@ const allCards = document.querySelectorAll(".card");
 const restartButton = document.getElementById("restartButton");
 const timeH = document.querySelector('.timer-memory');
 const matchesSpan = document.getElementById("matches");
+const resultPanel = document.getElementById("resultPanel");
+const finalScore = document.getElementById("finalScore");
+const timeTaken = document.getElementById("timeTaken");
+const playAgainButton = document.getElementById("playAgainButton");
 let timeSecond = 100;
+let timerInterval;
 
 let firstCard = null;
 let secondCard = null;
@@ -10,14 +15,13 @@ let canClick = false;
 let score = 0;
 let matchesFound = 0;
 
-
-
 allCards.forEach(card => {
     card.addEventListener('click', handleCardClick);
 });
 
 restartButton.addEventListener("click", handleRestart);
 timeH.addEventListener('click', startGame);
+playAgainButton.addEventListener('click', startGame);
 
 function handleCardClick() {
     if (!canClick) return;
@@ -34,7 +38,6 @@ function handleCardClick() {
         let img2 = secondCard.firstElementChild.src;
 
         if (img1 === img2) {
-            console.log("matching.....");
             firstCard = null;
             secondCard = null;
 
@@ -42,7 +45,7 @@ function handleCardClick() {
             matchesFound++;
             updateMatches();
 
-            if (score === 6) handleGameOver();
+            if (score === 6) handleGameOver(true);
         } else {
             canClick = false;
 
@@ -66,19 +69,16 @@ function handleRestart() {
     canClick = false;
     score = 0;
     matchesFound = 0;
+    timeSecond = 100;
     updateMatches();
+    resultPanel.classList.add("hidden");
+    clearInterval(timerInterval);
+    displayTime(timeSecond);
 }
 
 function startGame() {
+    handleRestart();
     canClick = true;
-    allCards.forEach(card => {
-        card.classList.remove("flip");
-    });
-    firstCard = null;
-    secondCard = null;
-    score = 0;
-    matchesFound = 0;
-    updateMatches();
 
     // Shuffle cards
     allCards.forEach(card => {
@@ -91,18 +91,17 @@ function startGame() {
 }
 
 function startTimer() {
-    const timerInterval = setInterval(() => {
+    timerInterval = setInterval(() => {
         timeSecond--;
         displayTime(timeSecond);
         if (timeSecond === 0) {
             clearInterval(timerInterval);
-            handleGameOver();
+            handleGameOver(false);
         }
     }, 1000);
 }
 
-// Display time 
-
+// Display time
 function displayTime(second) {
     const min = Math.floor(second / 60);
     const sec = Math.floor(second % 60);
@@ -113,20 +112,19 @@ function updateMatches() {
     matchesSpan.textContent = matchesFound;
 }
 
-
-
 // Game over
+function handleGameOver(win) {
+    clearInterval(timerInterval);
+    finalScore.textContent = `Final Score: ${matchesFound}`;
+    const totalTime = 100 - timeSecond;
+    timeTaken.textContent = `Time Taken: ${totalTime} seconds`;
 
-function handleGameOver() {
     setTimeout(() => {
-        if (matchesFound === 6) {
-            alert("You Win!");
+        if (win) {
+            resultPanel.querySelector("h2").textContent = "You Win!";
         } else {
-            alert("You Lose! Time's up!");
+            resultPanel.querySelector("h2").textContent = "You Lose! Time's up!";
         }
-        handleRestart()
-        location.reload();
+        resultPanel.classList.remove("hidden");
     }, 1000);
 }
-
-
