@@ -112,4 +112,4 @@ Lighthouse was a helpful tool for checking where where the website was experienc
   - [Mdn Web Docs](<https://developer.mozilla.org/en-US/>)
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
-- Special thanks to  my mentor Dick Vlaanderen.
+  - Special thanks to  my mentor Dick Vlaanderen and Mo Shami.
