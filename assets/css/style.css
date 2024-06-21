@@ -206,7 +206,7 @@ footer {
     padding: 20px;
     text-align: center;
     z-index: 10;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgb(64, 32, 243);
 }
 
 /* .hidden {
@@ -218,8 +218,9 @@ footer {
     padding: 10px 20px;
     background-color: #033b77;
     color: white;
-    border: radius ;
+    border: none ;
     cursor: pointer;
+
 }
 
 #playAgainButton:hover {
