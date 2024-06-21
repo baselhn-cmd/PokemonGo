@@ -209,9 +209,9 @@ footer {
     box-shadow: 0px 0px 10px rgb(64, 32, 243);
 }
 
-/* .hidden {
+.hidden {
     display: none;
-} */
+}
 
 #playAgainButton {
     margin-top: 60px;
