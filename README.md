@@ -76,13 +76,12 @@ This website is ment for:
 
 As a user of this website:
 
-- Test my knowledge in Champions League with the quiz.
-- Be able to see the rules and start the quiz button.
-- See the timer on each question.
-- See if i answer correctly or wrong after I chose an answer.
-- Be able to quit the game after the questions or in the middle of the quiz.
-- See my result after all the questions.
-- Be able to restart the game after all the questions.
+- Test my memory.
+- Be able to start game with  button.
+- See the timer on display.
+- See if i the images identical.
+- See my result after all cards flipped.
+- Be able to restart the game after finish the game.
 
 
 ## UX
