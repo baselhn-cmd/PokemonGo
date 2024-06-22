@@ -30,12 +30,7 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
     - [Typography](#typography)
   - [Features](#features)
     - [Existing Features](#existing-features)
-    - [Header](#header)
-    - [Welcome/Rules section](#welcomerules-section)
-    - [Quiz area](#quiz-area)
-    - [Result area](#result-area)
-    - [Social Media Section](#social-media-section)
-  - [Future Features](#future-features)
+    - [Features Left to Implement](#Features-Left-to-Implement)
   - [Technologies Used](#technologies-used)
     - [Balsamiq](#balsamiq)
     - [HTML](#html)
@@ -95,7 +90,7 @@ As a user of this website:
 
 ### Other divice
 
-![Welcome,quiz and result](assets/images/Team%20document%20(4).png)
+![Welcome,game and result](assets/images/Team%20document%20(4).png)
 
 ## Design
 I choose my own design
@@ -106,7 +101,7 @@ I used Google to find and match the color
 
 ![Responsice Mockup]( assets/images/colorpoke.png)
 
-## Future
+## Features
 
 - **Start game button**
 
@@ -129,12 +124,23 @@ I used Google to find and match the color
 - I would like to make animation on the modal and better design overall for the game.
 - Better design for the website with more interactivity
   
-## Tools & Technologies Use
+## Technologies Used
+### Balsamiq
 
+- Used to design and choose what the page will look like before starting with the coding.
+
+### HTML
 - [HTML](https://en.wikipedia.org/wiki/HTML) Used for crafting the primary site content.
+
+### CSS
 - [CSS](https://en.wikipedia.org/wiki/CSS) Employed for designing and structuring the main site layout.
 - [CSS Flexbox and CSS Grid](https://www.w3schools.com/css/css3_flexbox.asp) Utilized for creating a felxible and responsive layout.
+
+### JavaScript
 - [JavaScript](https://www.javascript.com) Implemented for enhancing user interaction and functionality on the site.
+
+### GitHub
+
 - [Git](<https://git-scm.com>) Employed for version control, including commands such as  (`git add`, `git commit`, `git push`).
 - [GitHub](https://github.com) Utilized for secure online storage and management of the source code.
 
