@@ -93,6 +93,14 @@ As a user of this website:
 
 ![Result box area](assets/images/Team%20document%20(1).png)
 
+### Other divice
+
+![Welcome,quiz and result](assets/images/Team%20document%20(4).png)
+
+## Design
+I choose my own design
+
+### Colours
 
 I used Google to find and match the color
 
