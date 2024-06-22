@@ -17,7 +17,7 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
 
 ## Table Of Contents
 
-- [Pokemon Go](#Pokemon Go memory game)
+- [Pokemon Go](#Pokemon-Go-memory-game)
   - [Table Of Contents](#table-of-contents)
   - [User Experience Design](#user-experience-design)
     - [User Demographic](#user-demographic)
