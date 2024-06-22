@@ -53,8 +53,7 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
   - [Deployment](#deployment)
   - [Credit](#credit)
     - [Content And Code](#content-and-code)
-  - [Logo And Questions](#logo-and-questions)
-  - [Acknowledgements](#acknowledgements)
+
 
 ## User Experience Design
 
@@ -211,12 +210,14 @@ The website was deployed to GitHub pages. Here is how you deploy on GitHub:
 A live version of the website and the project can be accessed here:
 [Pokemon Go](https://baselhn-cmd.github.io/PokemonGo/)
 
-## Credits
+## Credit
 
-### Content
+### Content And Code
 
-- Idea and text by myself
-- Photo from Google
+- The icons used on the social media were taken from [Font Awesome.](https://fontawesome.com)
+- To generate my favicon image, I did it on [Favicon.](https://favicon.io/)
+- The screenshot at the top of the ReadMe was built from [Ami Responsive.](https://ui.dev/amiresponsive)
+- The wireframes for the ReadMe were made by [Balsamiq.](https://balsamiq.com/)
 
 - #### Inspiration and tutorials used from
 
@@ -225,3 +226,5 @@ A live version of the website and the project can be accessed here:
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
   - Special thanks to  my mentor Dick Vlaanderen and Mo Shami.
+
+  [Back to top](#Pokemon-Go-memory-game)
