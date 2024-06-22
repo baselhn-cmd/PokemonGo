@@ -62,6 +62,29 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
   - [Logo And Questions](#logo-and-questions)
   - [Acknowledgements](#acknowledgements)
 
+## User Experience Design
+
+### User Demographic
+
+This website is ment for:
+
+- Users who Like to play games.
+- Users who like to think.
+- Users who have a good memory.
+
+### User Stories
+
+As a user of this website:
+
+- Test my knowledge in Champions League with the quiz.
+- Be able to see the rules and start the quiz button.
+- See the timer on each question.
+- See if i answer correctly or wrong after I chose an answer.
+- Be able to quit the game after the questions or in the middle of the quiz.
+- See my result after all the questions.
+- Be able to restart the game after all the questions.
+
+
 ## UX
 
 I used Google to find and match the color
