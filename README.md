@@ -83,8 +83,16 @@ As a user of this website:
 - See my result after all cards flipped.
 - Be able to restart the game after finish the game.
 
+## Wireframes
 
-## UX
+### Desktop
+
+![Welcome and Rules](assets/images/Team%20document%20(3).png)
+
+![game start](assets/images/Team%20document%20(2).png)
+
+![Result box area](assets/images/Team%20document%20(1).png)
+
 
 I used Google to find and match the color
 
