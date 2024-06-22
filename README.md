@@ -45,7 +45,6 @@ Get ready for an immersive experience filled with fun and nostalgia! Dive into t
       - [JavaScript Test](#javascript-test)
     - [Lighthouse Testing](#lighthouse-testing)
       - [Desktop Lighthouse Test](#desktop-lighthouse-test)
-      - [Mobile  Lighthouse Test](#mobile--lighthouse-test)
     - [Known Bugs](#known-bugs)
       - [Resolved](#resolved)
         - [HTML Warnings](#html-warnings)
@@ -189,7 +188,29 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 - Match all the pictures and you win
 
 ![Game](assets/images/Screenshot%20(13).png)
-  
+
+### Known Bugs
+
+#### Resolved
+
+During code validation, these warnings were shown:
+
+#### Unfixed Bugs
+
+No unfixed bugs.
+
+## Deployment
+
+The website was deployed to GitHub pages. Here is how you deploy on GitHub:
+
+1. In the GitHub repository, click on the setting tab.
+2. On the left side under the code and automation section, click on pages.
+3. Set branch as main and click save.
+4. The website will deploy after a few minutes. The link will be seen at the top of the page.
+
+A live version of the website and the project can be accessed here:
+[Pokemon Go](https://baselhn-cmd.github.io/PokemonGo/)
+
 ## Credits
 
 ### Content
