@@ -1,21 +1,21 @@
-const allCards = document.querySelectorAll(".card");
-const restartButton = document.getElementById("restartButton");
-const timeH = document.querySelector('.timer-memory');
-const matchesSpan = document.getElementById("matches");
-const resultPanel = document.getElementById("resultPanel");
-const finalScore = document.getElementById("finalScore");
-const timeTaken = document.getElementById("timeTaken");
-const playAgainButton = document.getElementById("playAgainButton");
-let timeSecond = 100;
-let timerInterval;
+var allCards = document.querySelectorAll(".card");
+var restartButton = document.getElementById("restartButton");
+var timeH = document.querySelector('.timer-memory');
+var matchesSpan = document.getElementById("matches");
+var resultPanel = document.getElementById("resultPanel");
+var finalScore = document.getElementById("finalScore");
+var timeTaken = document.getElementById("timeTaken");
+var playAgainButton = document.getElementById("playAgainButton");
+var timeSecond = 100;
+var timerInterval;
 
-let firstCard = null;
-let secondCard = null;
-let canClick = false;
-let score = 0;
-let matchesFound = 0;
+var firstCard = null;
+var secondCard = null;
+var canClick = false;
+var score = 0;
+var matchesFound = 0;
 
-allCards.forEach(card => {
+allCards.forEach(function(card) {
     card.addEventListener('click', handleCardClick);
 });
 
@@ -34,8 +34,8 @@ function handleCardClick() {
     } else if (!secondCard) {
         secondCard = this;
 
-        let img1 = firstCard.firstElementChild.src;
-        let img2 = secondCard.firstElementChild.src;
+        var img1 = firstCard.firstElementChild.src;
+        var img2 = secondCard.firstElementChild.src;
 
         if (img1 === img2) {
             firstCard = null;
@@ -49,7 +49,7 @@ function handleCardClick() {
         } else {
             canClick = false;
 
-            setTimeout(() => {
+            setTimeout(function() {
                 firstCard.classList.remove("flip");
                 secondCard.classList.remove("flip");
                 firstCard = null;
@@ -61,7 +61,7 @@ function handleCardClick() {
 }
 
 function handleRestart() {
-    allCards.forEach(card => {
+    allCards.forEach(function(card) {
         card.classList.remove("flip");
     });
     firstCard = null;
@@ -81,8 +81,8 @@ function startGame() {
     canClick = true;
 
     // Shuffle cards
-    allCards.forEach(card => {
-        let randPos = Math.floor(Math.random() * 12);
+    allCards.forEach(function(card) {
+        var randPos = Math.floor(Math.random() * 12);
         card.style.order = randPos;
     });
 
@@ -91,7 +91,7 @@ function startGame() {
 }
 
 function startTimer() {
-    timerInterval = setInterval(() => {
+    timerInterval = setInterval(function() {
         timeSecond--;
         displayTime(timeSecond);
         if (timeSecond === 0) {
@@ -103,9 +103,9 @@ function startTimer() {
 
 // Display time
 function displayTime(second) {
-    const min = Math.floor(second / 60);
-    const sec = Math.floor(second % 60);
-    timeH.innerHTML = `${min < 10 ? '0' : ''}${min}:${sec < 10 ? '0' : ''}${sec}`;
+    var min = Math.floor(second / 60);
+    var sec = Math.floor(second % 60);
+    timeH.innerHTML = (min < 10 ? '0' : '') + min + ':' + (sec < 10 ? '0' : '') + sec;
 }
 
 function updateMatches() {
@@ -115,11 +115,11 @@ function updateMatches() {
 // Game over
 function handleGameOver(win) {
     clearInterval(timerInterval);
-    finalScore.textContent = `Final Score: ${matchesFound}`;
-    const totalTime = 100 - timeSecond;
-    timeTaken.textContent = `Time Taken: ${totalTime} seconds`;
+    finalScore.textContent = "Final Score: " + matchesFound;
+    var totalTime = 100 - timeSecond;
+    timeTaken.textContent = "Time Taken: " + totalTime + " seconds";
 
-    setTimeout(() => {
+    setTimeout(function() {
         if (win) {
             resultPanel.querySelector("h2").textContent = "You Win!";
         } else {
