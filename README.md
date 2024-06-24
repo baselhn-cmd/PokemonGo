@@ -159,8 +159,11 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 ![csstest](assets/images/Css%20test.png)
 
 #### JavaScript
+No errors were found
 
  [JavaScript validator](https://jshint.com/)
+
+ ![JavaScript](assets/images/jshint2.png)
 
 ### Lighthouse testing
 
