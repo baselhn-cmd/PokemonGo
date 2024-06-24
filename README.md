@@ -199,7 +199,16 @@ During code validation, these warnings were shown:
 
 #### Unfixed Bugs
 
-No unfixed bugs.
+#### JavaScript Warnings and Bugs
+- During code validation, these warnings were shown:
+
+The error message indicates that you I´m using a version of JavaScript that doesn't support the const keyword, which was introduced in ECMAScript 6 (ES6). 
+![javascript](assets/images/jshint1.png)
+
+- I resolve this issue by changing const to var to support ES6 or modify your JavaScript .
+
+![javascript](assets/images/jshint2.png)
+
 
 ## Deployment
 
